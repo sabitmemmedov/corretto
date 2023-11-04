@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@100;300;400;500&family=Sen&display=swap');
+
+body {
+    color: #fff;
+    font-family: 'Marcellus', serif;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #262626;
+}
+
+.nav-desk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+nav .nav-right {
+    display: flex;
+    gap: 40px;
+}
+
+nav .nav-right ul {
+    display: flex;
+}
+
+.nav-menu ul {
+    gap: 50px;
+}
+
+.nav-icons ul {
+    gap: 20px;
+}
+
+nav ul li i {
+    font-size: 18px;
+}
+
+nav ul li {
+    font-size: 15px;
+}
+
+nav img {
+    width: 141px;
+    height: 67px;
+}
+
+.sec-one {
+    background: url("../img/h1-bacground-img-2.jpg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.sec-one-content {
+    width: 800px;
+    text-align: center;
+    padding: 60px 80px;
+}
+
+.sec-one-content img {
+    margin: 20px 0;
+}
+
+.sec-one-content h1 {
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+
+.sec-one-content button {
+    margin: 40px 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    width: 200px;
+    padding: 20px 20px;
+    background-color: transparent;
+}
+
+.sec-one-content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.sec-two {
+    padding: 60px 0;
+}
+
+.sec-two-top-content {
+    text-align: center;
+    color: black;
+}
+
+.sec-two-top-content h1 {
+    font-size: 45px;
+}
+
+.sec-two-top-content img {
+    margin: 20px 0;
+}
+
+.sec-two-cards {
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+}
+
+.sec-two-top-content p {
+    font-size: 18px;
+    width: 30%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.sec-two .card {
+    width: 250px;
+    text-align: center;
+    color: black;
+}
+
+.sec-two .card h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.sec-two .card p {
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.sec-three {
+    background: url("../img/new-new-h1-bacground-img-3.jpg");
+    height: auto;
+    background-size: cover;
+    object-fit: cover;
+    color: #262626;
+    padding: 60px 0;
+}
+
+.sec-three-top-content {
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.sec-three-top-content h1 {
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+.sec-three-top-content img {
+    margin-bottom: 20px;
+}
+
+.sec-three-top-content p {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.sec-three-cards {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.sec-three-card {
+    width: 28%;
+}
+
+.sec-three-card img {
+    width: 100%;
+}
+
+.sec-three-card h4 {
+    font-size: 20px;
+    color: #262626;
+    margin: 20px 0;
+}
+
+.sec-three-card p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #656565;
+    width: 99%;
+}
+
+.sec-three-card h5 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.sec-four {
+    padding: 40px 0;
+    background: url("../img/h1-bacground-img-2.jpg");
+    text-align: center;
+}
+
+.sec-four img {
+    width: 250px;
+    padding: 40px 0;
+}
+
+.sec-five {
+    padding: 60px 0;
+}
+
+.sec-five-cards {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 40px;
+}
+
+.sec-five-card {
+    width: 300px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sec-five-card h3 {
+    font-size: 20px;
+    color: #be9c79;
+    font-size: 55px;
+}
+
+.sec-five-card h4 {
+    color: #262626;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.sec-five-card p {
+    color: #656565;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.sec-six {
+    background: url("../img/six-6-bg.jpg");
+    width: 100%;
+    padding: 40px 0;
+}
+
+.sec-six-top-content {
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.sec-six-top-content h1 {
+    margin: 20px 0;
+    font-size: 45px;
+    color: #262626;
+}
+
+.sec-six-top-content img {
+    margin-bottom: 20px;
+}
+
+.sec-six-top-content p {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.sec-six-cards {
+    padding: 40px 0;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sec-six-card {
+    width: 290px;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sec-six-card img {
+    width: 100%;
+}
+
+.sec-six-card h4 {
+    color: #262626;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.sec-six-card p {
+    color: #777;
+    font-size: 18px;
+}
+
+
+.sec-seven-top-content {
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.sec-seven-top-content h1 {
+    margin: 20px 0;
+    font-size: 45px;
+    color: #262626;
+}
+
+.sec-seven-top-content img {
+    margin-bottom: 20px;
+}
+
+.sec-seven-top-content p {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 25px;
+    color: #656565;
+}
+
+.sec-seven-cards {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sec-seven-card {
+    background: url("../img/port-1-gallery-1.jpg");
+    height: 460px;
+    width: 460px;
+    background-size: cover;
+
+}
+
+.sec-seven-bottom-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+
+.sec-seven-bottom-card {
+    padding: 20px 0;
+}
+
+.sec-seven-bottom-cards img {
+    width: 300px;
+}
+
+.sec-eight {
+    background: url("../img/p2-background-img-1.jpg");
+    padding: 40px 0;
+}
+
+.eight-content {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.eight-content p {
+    color: #262626;
+    font-size: 20px;
+}
+
+.eight-content button {
+    outline: 0;
+    border: 0;
+    padding: 19px 35px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #be9c79;
+    width: 170px;
+}
+
+.sec-nine {
+    background: url("../img/footer-top-img-1.jpg");
+    padding: 60px 0;
+}
+
+.sec-nine-content {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.sec-nine-content img {
+    width: 150px;
+
+}
+
+.sec-nine-content p {
+    width: 550px;
+    margin: 0 auto;
+    padding: 20px 0;
+    line-height: 24px;
+
+}
+
+.z {
+    width: 295px !important;
+}
+
+.sec-nine-content h4 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.inpDiv {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.inpDiv input {
+    width: 220px;
+    padding: 19px 23px;
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid #fff;
+}
+
+.inpDiv input::placeholder {
+    color: #fff;
+    font-size: 15px;
+}
+.inpDiv button{
+    padding:19px 23px ;
+    border: 0;
+    border: 1px solid #fff;
+
+}
+
+footer{
+    background-color: #121212;
+    padding: 40px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    gap: 30px;
+    text-align: center;
+}
+.footer-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 901px) {
+    header {
+        background-color: #fff;
+    }
+
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 70px;
+        padding: 0 30px;
+    }
+
+    .nav-mobile i {
+        color: #262626;
+    }
+
+    .nav-m-logo img {
+        width: 116px;
+        height: 55px;
+    }
+
+    .sec-one-content {
+        padding: 0;
+    }
+
+    .sec-one-content h1 {
+        font-size: 70px;
+    }
+
+    .sec-one-content p {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .sec-two-top-content p,
+    .sec-three-top-content p {
+        width: 70%;
+    }
+
+    .sec-three-cards {
+        width: 96%;
+    }
+
+    .sec-three-card {
+        width: 290px;
+    }
+
+    .sec-seven-card {
+        background: url("../img/port-1-gallery-1.jpg");
+        height: 290px;
+        width: 290px;
+        background-size: cover;
+
+    }
+    .sec-nine-content p {
+        width: 90%;
+    }
+    .z {
+        width: 90% !important;
+    }
+    .inpDiv{
+        width: 90%;
+    }
+    .inpDiv input{
+        width: 200px;
+    }
+    
+}
